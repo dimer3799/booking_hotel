@@ -1,0 +1,12 @@
+/.idea/
+__pycache__/
+.pytest_cache
+# виртуальные окружения
+.venv/
+env/
+venv/
+# все что касается VSCode
+.vscode/
+
+# Файл настроек
+settings.yaml
