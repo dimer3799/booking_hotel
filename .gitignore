@@ -9,4 +9,4 @@ venv/
 .vscode/
 
 # Файл настроек
-settings.yaml
+.env
