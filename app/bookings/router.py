@@ -1,7 +1,6 @@
 from fastapi import APIRouter
 
-router = APIRouter(prefix="/bookings", tags=["Bookings"])
-from sqlalchemy import select
+router = APIRouter(prefix="/bookings", tags=["Бронирование"])
 
 from app.bookings.dao import BookingDAO
 from app.bookings.scemas import SBooking
